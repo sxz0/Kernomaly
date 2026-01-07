@@ -1,0 +1,12 @@
+[package]
+name = "aya-ebpf"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+aya-ebpf = "0.1"
+aya-log-ebpf = "0.1"
+
+[[bin]]
+name = "anomaly_detector"
+path = "src/main.rs"
